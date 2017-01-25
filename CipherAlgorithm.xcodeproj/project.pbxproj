@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB00A1091E391D58000028E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB00A1081E391D58000028E8 /* AppDelegate.swift */; };
+		BB00A10B1E391D58000028E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB00A10A1E391D58000028E8 /* ViewController.swift */; };
+		BB00A10E1E391D58000028E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB00A10C1E391D58000028E8 /* Main.storyboard */; };
+		BB00A1101E391D58000028E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB00A10F1E391D58000028E8 /* Assets.xcassets */; };
+		BB00A1131E391D58000028E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB00A1111E391D58000028E8 /* LaunchScreen.storyboard */; };
+		CA475DA06EEA50AE679855FC /* Pods_CipherAlgorithm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1735BF23CCB60C0E2B4D7531 /* Pods_CipherAlgorithm.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB00A1301E391F40000028E8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1735BF23CCB60C0E2B4D7531 /* Pods_CipherAlgorithm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CipherAlgorithm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF0F553F51BDF8F5AF773F6 /* Pods-CipherAlgorithm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CipherAlgorithm.release.xcconfig"; path = "Pods/Target Support Files/Pods-CipherAlgorithm/Pods-CipherAlgorithm.release.xcconfig"; sourceTree = "<group>"; };
+		B5ADEC5917DC1BE6BF66D566 /* Pods-CipherAlgorithm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CipherAlgorithm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CipherAlgorithm/Pods-CipherAlgorithm.debug.xcconfig"; sourceTree = "<group>"; };
+		BB00A1051E391D58000028E8 /* CipherAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CipherAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB00A1081E391D58000028E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB00A10A1E391D58000028E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB00A10D1E391D58000028E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB00A10F1E391D58000028E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB00A1121E391D58000028E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB00A1141E391D58000028E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB00A11E1E391DC6000028E8 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.map; path = CommonCrypto/module.map; sourceTree = "<group>"; };
+		BB00A1351E392233000028E8 /* CipherAlgorithm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CipherAlgorithm-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB00A1021E391D58000028E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA475DA06EEA50AE679855FC /* Pods_CipherAlgorithm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33DB37E96A5A6D8630D95191 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5ADEC5917DC1BE6BF66D566 /* Pods-CipherAlgorithm.debug.xcconfig */,
+				7FF0F553F51BDF8F5AF773F6 /* Pods-CipherAlgorithm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		755D9B8E5BE19B4E13761E0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1735BF23CCB60C0E2B4D7531 /* Pods_CipherAlgorithm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB00A0FC1E391D58000028E8 = {
+			isa = PBXGroup;
+			children = (
+				BB00A1071E391D58000028E8 /* CipherAlgorithm */,
+				BB00A1061E391D58000028E8 /* Products */,
+				33DB37E96A5A6D8630D95191 /* Pods */,
+				755D9B8E5BE19B4E13761E0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB00A1061E391D58000028E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB00A1051E391D58000028E8 /* CipherAlgorithm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB00A1071E391D58000028E8 /* CipherAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				BB00A11D1E391DA0000028E8 /* CommonCrypto */,
+				BB00A1081E391D58000028E8 /* AppDelegate.swift */,
+				BB00A10A1E391D58000028E8 /* ViewController.swift */,
+				BB00A10C1E391D58000028E8 /* Main.storyboard */,
+				BB00A10F1E391D58000028E8 /* Assets.xcassets */,
+				BB00A1111E391D58000028E8 /* LaunchScreen.storyboard */,
+				BB00A1141E391D58000028E8 /* Info.plist */,
+				BB00A1351E392233000028E8 /* CipherAlgorithm-Bridging-Header.h */,
+			);
+			path = CipherAlgorithm;
+			sourceTree = "<group>";
+		};
+		BB00A11D1E391DA0000028E8 /* CommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				BB00A11E1E391DC6000028E8 /* module.map */,
+			);
+			name = CommonCrypto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB00A1041E391D58000028E8 /* CipherAlgorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB00A1171E391D58000028E8 /* Build configuration list for PBXNativeTarget "CipherAlgorithm" */;
+			buildPhases = (
+				BD3670E53953F5AE12E0A3CF /* [CP] Check Pods Manifest.lock */,
+				BB00A1011E391D58000028E8 /* Sources */,
+				BB00A1021E391D58000028E8 /* Frameworks */,
+				BB00A1031E391D58000028E8 /* Resources */,
+				BB00A1301E391F40000028E8 /* Embed Frameworks */,
+				B5C8D06E8616617B67DE9606 /* [CP] Embed Pods Frameworks */,
+				D723A3E1ED25263043828BE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CipherAlgorithm;
+			productName = CipherAlgorithm;
+			productReference = BB00A1051E391D58000028E8 /* CipherAlgorithm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB00A0FD1E391D58000028E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dragonfly Labs.";
+				TargetAttributes = {
+					BB00A1041E391D58000028E8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 83CT8X994B;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BB00A1001E391D58000028E8 /* Build configuration list for PBXProject "CipherAlgorithm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB00A0FC1E391D58000028E8;
+			productRefGroup = BB00A1061E391D58000028E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB00A1041E391D58000028E8 /* CipherAlgorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB00A1031E391D58000028E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB00A1131E391D58000028E8 /* LaunchScreen.storyboard in Resources */,
+				BB00A1101E391D58000028E8 /* Assets.xcassets in Resources */,
+				BB00A10E1E391D58000028E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5C8D06E8616617B67DE9606 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CipherAlgorithm/Pods-CipherAlgorithm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD3670E53953F5AE12E0A3CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D723A3E1ED25263043828BE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CipherAlgorithm/Pods-CipherAlgorithm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB00A1011E391D58000028E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB00A10B1E391D58000028E8 /* ViewController.swift in Sources */,
+				BB00A1091E391D58000028E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB00A10C1E391D58000028E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB00A10D1E391D58000028E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB00A1111E391D58000028E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB00A1121E391D58000028E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB00A1151E391D58000028E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB00A1161E391D58000028E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB00A1181E391D58000028E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5ADEC5917DC1BE6BF66D566 /* Pods-CipherAlgorithm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 83CT8X994B;
+				INFOPLIST_FILE = CipherAlgorithm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.dflabs.CipherAlgorithm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = CommonCrypto;
+				SWIFT_OBJC_BRIDGING_HEADER = "CipherAlgorithm/CipherAlgorithm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BB00A1191E391D58000028E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF0F553F51BDF8F5AF773F6 /* Pods-CipherAlgorithm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 83CT8X994B;
+				INFOPLIST_FILE = CipherAlgorithm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.dflabs.CipherAlgorithm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = CommonCrypto;
+				SWIFT_OBJC_BRIDGING_HEADER = "CipherAlgorithm/CipherAlgorithm-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB00A1001E391D58000028E8 /* Build configuration list for PBXProject "CipherAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB00A1151E391D58000028E8 /* Debug */,
+				BB00A1161E391D58000028E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB00A1171E391D58000028E8 /* Build configuration list for PBXNativeTarget "CipherAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB00A1181E391D58000028E8 /* Debug */,
+				BB00A1191E391D58000028E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB00A0FD1E391D58000028E8 /* Project object */;
+}
